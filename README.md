@@ -29,7 +29,8 @@ Titanic-ML/
   - Converted `Sex` to numeric values (male → 0, female → 1)
   - Filled missing `Age` values with median
   - Coverted `Embarked`, S=1, C=1 & Q=2
-  - Calculated median fare of each class and compare them (higer than median → 1, lower → 0)
+  - `HighFare` calculated median fare of each class and compare them (higer than median → 1, lower → 0)
+  - Calculated the `Relatives` in ship by `ParCh` + `SibSp`
 - Built and trained a Logistic Regression model using scikit-learn
 - Predicted survival on the test set
 - Created a Kaggle submission file
