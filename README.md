@@ -24,10 +24,12 @@ Titanic-ML/
 
 ## Approach 🧠
 
-- Selected simple features: `Pclass`, `Sex`, `Age`,`fare`
+- Selected simple features: `Sex`, `Age`,`Relatives`, `Embarked`, `HighFare`
 - Preprocessing steps:
   - Converted `Sex` to numeric values (male → 0, female → 1)
   - Filled missing `Age` values with median
+  - Coverted `Embarked`, S=1, C=1 & Q=2
+  - Calculated median fare of each class and compare them (higer than median → 1, lower → 0)
 - Built and trained a Logistic Regression model using scikit-learn
 - Predicted survival on the test set
 - Created a Kaggle submission file
@@ -37,7 +39,7 @@ Titanic-ML/
 ## Results 🎯
 
 - **Validation Accuracy:** ~74.8%
-- **Kaggle Public Leaderboard Score:** 0.75837
+- **Kaggle Public Leaderboard Score:** 0.77272
 
 
 
@@ -74,7 +76,7 @@ Titanic-ML/
 
 ## Future Work 🚀
 
-- Add more features (Embarked, Siblings or spouses, Parents or childern)
+- Add more features (Deck from Cabin, Title)
 
 - Handle missing data more intelligently
 
