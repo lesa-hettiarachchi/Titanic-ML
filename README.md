@@ -7,7 +7,7 @@ The goal is to build a machine learning model that predicts whether a passenger 
 
 ---
 
-## Project Structure
+## Project Structure 
 ```bash
 Titanic-ML/
 ├── data/              # Raw datasets (train.csv, test.csv)
@@ -22,7 +22,7 @@ Titanic-ML/
 
 ---
 
-## Approach
+## Approach 🧠
 
 - Selected simple features: `Pclass`, `Sex`, `Age`,`fare`
 - Preprocessing steps:
@@ -34,15 +34,14 @@ Titanic-ML/
 
 
 
-## Results
+## Results 🎯
 
 - **Validation Accuracy:** ~74.8%
-- **Kaggle Public Leaderboard Score:** _(to be updated after submission)_
+- **Kaggle Public Leaderboard Score:** 0.75837
 
 
 
-## How to Run
-
+## How to Run 💻
 1. Clone this repository:
 
    ```bash
@@ -73,25 +72,25 @@ Titanic-ML/
 
 
 
-## Future Work
+## Future Work 🚀
 
-● Add more features (Embarked, Siblings or spouses, Parents or childern)
+- Add more features (Embarked, Siblings or spouses, Parents or childern)
 
-● Handle missing data more intelligently
+- Handle missing data more intelligently
 
-● Try different models (Random Forest, XGBoost)
+- Try different models (Random Forest, XGBoost)
 
-● Hyperparameter tuning using GridSearchCV
+- Hyperparameter tuning using GridSearchCV
 
-● Apply cross-validation for better evaluation
+- Apply cross-validation for better evaluation
 
 
-# Acknowledgements
+# Acknowledgements 📝
 
-● Kaggle Titanic Competition
+- Kaggle Titanic Competition
 
-● scikit-learn documentation
+- scikit-learn documentation
 
-● pandas and numpy libraries
+- pandas and numpy libraries
 
    
