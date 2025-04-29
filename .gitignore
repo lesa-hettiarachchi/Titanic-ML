@@ -1,0 +1,14 @@
+# Ignore virtual environment
+venv/
+
+# Ignore Mac OS system files
+.DS_Store
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore output files (optional)
+output/
+
+# Ignore other temporary files
+__pycache__/
